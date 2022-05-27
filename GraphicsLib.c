@@ -21,6 +21,7 @@ void GL_Play(GameData *paragraph){
     unsigned int len = paragraph->len;
     int yMax, xMax;
     int i;
+    /*auxiliary variables in case of changing the number of rows and columns */
     int lin, col;
     char color = 1;
     // Clear stdscr
